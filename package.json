@@ -1,11 +1,14 @@
 {
-  "name": "Gen10-Generator",
+  "name": "gen10generator",
   "version": "0.0.1",
   "description": "Model/Controller/Module generator Specifically for MobisApiBase.",
   "main": "index.js",
   "repository": "https://github.com/gonzalesgustavo/Gen10-Generator",
   "author": "gonzalesgustavo",
   "license": "MIT",
+  "scripts": {
+    "gen10": "node ."
+  },
   "dependencies": {
     "ejs": "^3.1.5"
   }
