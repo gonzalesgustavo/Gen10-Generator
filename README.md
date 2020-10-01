@@ -77,3 +77,24 @@ Name should start with a capital letter "Home"
 |    ACRUD   | Route with an index, Read, Update, Delete (Get) (Get/:id) (Patch) (Put) (Delete)   |
 |    ARU     | Route with an index, Update, and Read (Get) (Get/:id) (Patch) (Put)                |
 |    AUD     | Route with an index, Update, and Delete (Get) (Patch) (Put) (Delete)               |
+
+## Generating Tests
+---
+
+If you want a test to be generated after all put the type of test you want to generate.
+
+```bash
+yarn gen10 r [Option] [Name] [test option]
+```
+
+If you want to generate a just a test.
+
+```bash
+yarn gen10 t [Option] [Name]
+```
+
+| Option | Type                      |
+| ------ | ------------------------- |
+|   u    | Unit test                 |
+|   i    | Integration Test          |
+|  ui|iu | Unit and Integration Test |
