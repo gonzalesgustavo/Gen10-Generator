@@ -11,6 +11,7 @@ In the projects root directory add a file named g10.settings.json. This file con
 ```json
   {
     "controllerDir": "../../src/src/Controllers/",
+    "testDir": "../../src/",
     "modelDir": "../../src/src/Models/",
   }
 ```
