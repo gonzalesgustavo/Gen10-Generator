@@ -1,0 +1,3 @@
+{
+  "registryMessage": "WARNING: all modules must be registered under Registry/module.registry.ts in order to be considered routes. As of Version 1.0\n"
+}
