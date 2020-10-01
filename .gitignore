@@ -1,2 +1,4 @@
 /node_modules
 gen10.settings.json
+*.lock
+*.log
