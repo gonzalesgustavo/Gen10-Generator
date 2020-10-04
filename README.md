@@ -12,6 +12,7 @@ In the projects root directory add a file named g10.settings.json. This file con
   {
     "controllerDir": "../../src/src/Controllers/",
     "testDir": "../../src/",
+    "databaseHandler": "mongoose",
     "modelDir": "../../src/src/Models/",
   }
 ```
@@ -40,6 +41,8 @@ yarn gen10 m [Name]
 ```
 
 Name should start with a capital letter "Home"
+
+If you use mongoose make sure you specify mongoose, if you use mongodb client use mongodb. 
 
 
 ### Options
