@@ -3,6 +3,8 @@
 
 Gen10-Generator is a project specific package for the AnubisBaseAPI. It generates Routes (Module/Controller) which must be registered manually as of version 1.0.
 
+NOTE:! Does not cache if you run the gen10 your model is recreated same as the controller. In the pipeline to be added later. 
+
 ## Setup
 ---
 
